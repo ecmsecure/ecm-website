@@ -19,17 +19,17 @@ sections:
   - section_id: features
     type: section_features
     background: gray
-    title: API for the storage and transfer of sensitive digital assets.
+    title: Secure storage and transfer API for sensitive digital assets.
     subtitle: >-
-      Secure your digital assets by combining strong algorythms in PKI, 
-      crytpography and decentralised private blockchain.
+      Combining highly secure PKI and crytpographic algorythms 
+      with version control and decentralised private blockchain technologies.
     features:
       - title: Encryption
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         content: >-
-          Digital asset encryption is used to create a zero-knowledge
-          encrypted file. Assets can only be decrypted by users who have been given 
+          Digital asset encryption creating a zero-knowledge
+          encrypted file. Assets can only be decrypted by users who have been granted 
           access.
       - title: Cryptography
         image: images/feature2.png
