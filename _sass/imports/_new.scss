@@ -1,0 +1,54 @@
+#hero {
+  .block-title {
+    font-weight: normal;
+    font-size: 3.4444em;
+    margin-bottom: 0em;
+    position: relative;
+    a {
+      cursor: pointer;
+    }
+    img{
+      position: absolute;
+      left: -1.2em;
+      display: inline-block;
+      height: 50px;
+      top: 0.25em;
+    }
+  }
+  .block-content {
+    padding-top: 0em;
+  }
+  .block-copy {
+    p{
+      margin-bottom: 0.9em;
+      font-size: 0.9em;
+      line-height: 1.3em;
+    }
+    .greek{
+      font-size: 1.2em;
+    }
+    .hero-quote{
+      color: grey;
+      font-size: 0.83em;
+      font-style: italic;
+    }
+  }
+
+
+}
+
+#hero.hero-block {
+  padding-top: 1.5em;
+  padding-bottom: 0;
+}
+
+#features {
+  .inner-small {
+    max-width: 1200px;
+    h2 {
+      color: #061C44;
+      padding-bottom: 20px;
+
+    }
+  }
+ }

@@ -4,11 +4,14 @@ sections:
   - section_id: hero
     type: section_hero
     image: images/hero.png
-    image_alt: App preview
-    title: This Is A Big Hero Headline
+    image_alt: Blockchain backed Encryptometrics
+    title: encryptometry
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
+      <p class="greek">/ɛnˈkrɪptʊˈmɪtri/</p>
+      <p>noun<br />
+         noun: encryptometrics</p>
+      <p><strong>hyper secure storage and transfer protocol for digital assets.</strong></p>
+      <p class="hero-quote">"I use encryptometrics to transfer highly sensitive documents"</p>
     actions:
       - label: Learn More
         url: /features
@@ -16,101 +19,46 @@ sections:
   - section_id: features
     type: section_features
     background: gray
-    title: Features
+    title: API for the storage and transfer of sensitive digital assets.
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Secure your digital assets by combining strong algorythms in PKI, 
+      crytpography and decentralised private blockchain.
     features:
-      - title: The Best Feature of Your Services
+      - title: Encryption
         image: images/feature1.png
         image_alt: App preview on a phone and tablet
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Awesome Feature of Your Services
+          Digital asset encryption is used to create a zero-knowledge
+          encrypted file. Assets can only be decrypted by users who have been given 
+          access.
+      - title: Cryptography
         image: images/feature2.png
         image_alt: App users welcoming a new member
         content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Cool Feature of Your Services
+          A one-way cryptograpic hash assertion mechanism to ensure
+          tamper proof assets.
+      - title: Decentralised Blockchain
         image: images/feature3.png
         image_alt: App user profile preview
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-  - section_id: reviews
-    type: section_reviews
-    background: white
-    title: Testimonials
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales.
-    reviews:
-      - author: Eric Widget
-        avatar: images/review1.jpg
-        avatar_alt: Eric Widget's photo
+          Distributed storage on a permissions based blockchain
+          removes the central authority point of failure, storing
+          an immutable transaction chain of your assets.
+      - title: Proof of Revision
+        image: images/feature3.png
+        image_alt: App user profile preview
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Parsley Montana
-        avatar: images/review2.jpg
-        avatar_alt: Parsley Montana's photo
-        content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Jonquil Von Haggerston
-        avatar: images/review3.jpg
-        avatar_alt: Jonquil Von Haggerston's photo
-        content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - section_id: call-to-action
-    type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Get Started
-        url: /signup
-        style: primary
-  - section_id: recent-posts
-    type: section_posts
-    background: gray
-    title: Latest Posts
+          Full asset audit trail and version history.
+          Compare previous versions, attribute changes, view stats. 
 seo:
-  title: Stackbit Azimuth Theme
+  title: ECM - Blockchain backed API for highly secure file storage and transfer
   description: The preview of the Azimuth theme
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
+      value: ECM - Blockchain backed API for highly secure file storage and transfer
       keyName: property
     - name: 'og:description'
       value: The preview of the Azimuth theme

@@ -30,3 +30,7 @@ Array.from(faqAccordions).forEach((faqAccordion) => {
     multiSelectable: true
   });
 });
+
+  document.getElementById("link_id").addEventListener("click", function () {
+    document.getElementById("linkAudio").play();
+  });
