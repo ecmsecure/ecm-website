@@ -25,34 +25,34 @@ sections:
       with version control and decentralised private blockchain technologies.
     features:
       - title: Encryption
-        image: images/feature1.png
+        image: images/encryption.gif
         image_alt: App preview on a phone and tablet
         content: >-
           Digital asset encryption creating a zero-knowledge
           encrypted file. Assets can only be decrypted by users who have been granted 
           access.
       - title: Cryptography
-        image: images/feature2.png
+        image: images/cryptography.gif
         image_alt: App users welcoming a new member
         content: >-
           A one-way cryptograpic hash assertion mechanism to ensure
           tamper proof assets.
       - title: Decentralised Blockchain
-        image: images/feature3.png
+        image: images/Decentralised-Blockchain.gif
         image_alt: App user profile preview
         content: >-
           Distributed storage on a permissions based blockchain
           removes the central authority point of failure, storing
           an immutable transaction chain of your assets.
       - title: Proof of Revision
-        image: images/feature3.png
+        image: images/proof-of-revision.gif
         image_alt: App user profile preview
         content: >-
           Full asset audit trail and version history.
           Compare previous versions, attribute changes, view stats. 
 seo:
   title: ECM - Blockchain backed API for highly secure file storage and transfer
-  description: The preview of the Azimuth theme
+  description: Secure storage and transfer API for sensitive digital assets.
   extra:
     - name: 'og:type'
       value: website

@@ -1,4 +1,3 @@
-title: ECM - Blockchain backed API for highly secure file storage and transfer
 baseurl: ""
 permalink: '/:title/'
 collections:
