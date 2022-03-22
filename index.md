@@ -4,14 +4,14 @@ sections:
   - section_id: hero
     type: section_hero
     image: images/hero.png
-    image_alt: Blockchain backed Encryptometrics
-    title: encryptometry
+    image_alt: Blockchain as a Service
+    title: Blockchain as a Service (BaaS)
     content: >-
-      <p class="greek">/ɛnˈkrɪptʊˈmɪtri/</p>
-      <p>noun<br />
-         noun: encryptometrics</p>
-      <p><strong>hyper secure storage and transfer protocol for digital assets.</strong></p>
-      <p class="hero-quote">"I use encryptometrics to transfer highly sensitive documents"</p>
+      <p class="greek">hyper secure storage and transfer protocol for a range of digital assets and communication.</p>
+      <p>> private certificate authority<br />
+         > private decentralised blockchain<br />
+         > zero-knowledge encrypted asset storage<br />
+         > asset revision history</p>
     actions:
       - label: Learn More
         url: /features
