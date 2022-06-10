@@ -9,9 +9,9 @@ sections:
     content: >-
       <p class="greek">hyper secure storage and transfer protocol for a range of digital assets and communication.</p>
       <p>> private certificate authority<br />
-         > private decentralised blockchain<br />
-         > zero-knowledge encrypted asset storage<br />
-         > asset revision history</p>
+         > decentralised blockchain<br />
+         > encryptometrics asset storage protocol<br />
+         > asset revision audit trail and history</p>
     actions:
       - label: Learn More
         url: /features
@@ -25,28 +25,28 @@ sections:
       with version control and decentralised private blockchain technologies.
     features:
       - title: Encryption
-        image: images/encryption.gif
-        image_alt: App preview on a phone and tablet
+        image: images/encryption-static.png
+        image_alt: Encryptometrics protocol
         content: >-
           Digital asset encryption creating a zero-knowledge
           encrypted file. Assets can only be decrypted by users who have been granted 
           access.
       - title: Cryptography
-        image: images/cryptography.gif
-        image_alt: App users welcoming a new member
+        image: images/cryptography-static.png
+        image_alt: Secure validation using cryptography
         content: >-
           A one-way cryptograpic hash assertion mechanism to ensure
           tamper proof assets.
       - title: Decentralised Blockchain
-        image: images/Decentralised-Blockchain.gif
-        image_alt: App user profile preview
+        image: images/Decentralised-Blockchain.png
+        image_alt: private decentralised blockchain
         content: >-
           Distributed storage on a permissions based blockchain
           removes the central authority point of failure, storing
           an immutable transaction chain of your assets.
       - title: Proof of Revision
-        image: images/proof-of-revision.gif
-        image_alt: App user profile preview
+        image: images/proof-of-revision-static.png
+        image_alt: Audit trail and proof of revision
         content: >-
           Full asset audit trail and version history.
           Compare previous versions, attribute changes, view stats. 
@@ -70,11 +70,11 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
+      value: ECM Blockchain as a Service
     - name: 'twitter:description'
-      value: The preview of the Azimuth theme
+      value: Hyper secure asset storage and transfer datasource
     - name: 'twitter:image'
-      value: images/hero.png
+      value: images/Decentralised-Blockchain.png
       relativeUrl: true
 layout: landing
 ---

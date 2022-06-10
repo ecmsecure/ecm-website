@@ -314,6 +314,8 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 
 .block-preview { margin-bottom: 1.66667em; }
 
+.block-copy li { margin-bottom: 10px; }
+
 .block-buttons { -ms-flex-align: center; align-items: center; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: center; justify-content: center; margin: 1.66667em 0 1em; }
 .block-buttons:first-child { margin-top: 0; }
 .block-buttons a { font-size: 0.88889em; font-weight: bold; margin: 0 0.375em 1.125em; }
