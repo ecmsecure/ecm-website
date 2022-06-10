@@ -38,8 +38,9 @@ sections:
         url: '#'
         style: secondary
 seo:
-  title: Features
-  description: This is the features page
+  title: Hyper-secure digital asset datastore
+  description: ECM provides the infrastructure and API for the secure storage
+      and revision of digital assets.  
   extra:
     - name: 'og:type'
       value: website
@@ -48,20 +49,20 @@ seo:
       value: Features
       keyName: property
     - name: 'og:description'
-      value: This is the features page
+      value: ECM provides the infrastructure and API for the secure storage and revision of digital assets.   
       keyName: property
     - name: 'og:image'
-      value: images/feature1.png
+      value: images/features-static.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Features
+      value: Hyper-secure digital asset datastore
     - name: 'twitter:description'
-      value: This is the features page
+      value: ECM provides the infrastructure and API for the secure storage and revision of digital assets.   
     - name: 'twitter:image'
-      value: images/feature1.png
+      value: images/features-static.png
       relativeUrl: true
 layout: landing
 ---
