@@ -16,7 +16,10 @@ header:
     - label: Technology
       url: /features
       style: link
-    - label: Developer
+    - label: Businesses
+      url: /features
+      style: link
+    - label: Developers
       url: /pricing
       style: link
     - label: Contact

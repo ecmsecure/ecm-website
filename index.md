@@ -5,12 +5,13 @@ sections:
     type: section_hero
     image: images/hero.png
     image_alt: Blockchain as a Service
-    title: Blockchain as a Service (BaaS)
+    title: Blockchain API &amp; Infrastructure
     content: >-
       <p class="greek">hyper secure storage and transfer protocol for a range of digital assets and communication.</p>
-      <p>> private certificate authority<br />
-         > decentralised blockchain<br />
-         > encryptometrics asset storage protocol<br />
+      <p>> hassle free blockchain as a service (BaaS)<br />
+         > configuration &amp; infrastructure management<br />
+         > end-to-end chaincode deployment &amp; interactive API<br />
+         > private certificate authority<br />
          > asset revision audit trail and history</p>
     actions:
       - label: Learn More
