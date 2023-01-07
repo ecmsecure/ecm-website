@@ -22,7 +22,7 @@ sections:
     title: focus on developing your blockchain idea not painful infrastructure
     subtitle: >-
       Quick start with an enterprise-grade, private blockchain cluster
-      and REST API to start tracking your digital assets immediately. 
+      and REST API ready to track your digital assets immediately. 
     features:
       - title: Encryption
         image: images/encryption-static.png
