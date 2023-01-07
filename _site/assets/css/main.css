@@ -328,7 +328,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 
 @media only screen and (min-width: 801px) { .hero-block .cell:only-child, .text-block .cell:only-child, .features-block .cell:only-child, .cta-block .cell:only-child { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 750px; text-align: center; }
   .hero-block .cell:only-child .underline:after, .text-block .cell:only-child .underline:after, .features-block .cell:only-child .underline:after { display: none; }
-  .hero-block .block-preview, .text-block .block-preview, .features-block .block-preview { -ms-flex: 0 0 58.333%; flex: 0 0 58.333%; max-width: 58.333%; }
+  .hero-block .block-preview, .text-block .block-preview, .features-block .block-preview { -ms-flex: 0 0 51.333%; flex: 0 0 51.333%; max-width: 51.333%; }
   .hero-block .block-content, .text-block .block-content, .features-block .block-content { -ms-flex: 0 0 41.666%; flex: 0 0 41.666%; max-width: 41.666%; text-align: left; }
   .hero-block .block-content:not(:only-child) .block-buttons, .text-block .block-content:not(:only-child) .block-buttons, .features-block .block-content:not(:only-child) .block-buttons { -ms-flex-pack: start; justify-content: flex-start; }
   .hero-block .block-content:not(:only-child) .block-buttons a, .text-block .block-content:not(:only-child) .block-buttons a, .features-block .block-content:not(:only-child) .block-buttons a { margin-left: 0; margin-right: 0.75em; }
@@ -504,7 +504,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 body.has-theme-bar #page { top: 60px; }
 @media only screen and (min-width: 801px) { body.has-theme-bar #page .site-header { top: 60px; } }
 
-#hero .block-title { font-weight: normal; font-size: 3.4444em; margin-bottom: 0em; position: relative; }
+#hero .block-title { font-weight: normal; font-size: 2.7em; margin-bottom: 0em; position: relative; }
 #hero .block-title a { cursor: pointer; }
 #hero .block-title img { position: absolute; left: -1.2em; display: inline-block; height: 50px; top: 0.25em; }
 #hero .block-content { padding-top: 0em; }

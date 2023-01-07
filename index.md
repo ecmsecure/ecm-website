@@ -5,14 +5,13 @@ sections:
     type: section_hero
     image: images/hero.png
     image_alt: Blockchain as a Service
-    title: Blockchain API &amp; Infrastructure
+    title: Business Blockchain Up & Running
     content: >-
-      <p class="greek">hyper secure storage and transfer protocol for a range of digital assets and communication.</p>
-      <p>> hassle free blockchain as a service (BaaS)<br />
-         > configuration &amp; infrastructure management<br />
-         > end-to-end chaincode deployment &amp; interactive API<br />
-         > private certificate authority<br />
-         > asset revision audit trail and history</p>
+      <p class="greek">hassle-free enterprise grade blockchain infrastructure and digital asset REST API</p>
+      <p>> bypass configuration and infrastructure headaches<br />
+         > chaincode deployment &amp; interactive asset API<br />
+         > private nodes, peers and certificate authorities<br />
+         > scalable cluster management and monitoring</p>
     actions:
       - label: Learn More
         url: /features
@@ -20,10 +19,10 @@ sections:
   - section_id: features
     type: section_features
     background: gray
-    title: Secure storage and transfer API for sensitive digital assets.
+    title: focus on developing your blockchain idea not painful infrastructure
     subtitle: >-
-      Combining highly secure PKI and crytpographic algorythms 
-      with version control and decentralised private blockchain technologies.
+      Quick start with an enterprise-grade, private blockchain cluster
+      and REST API to start tracking your digital assets immediately. 
     features:
       - title: Encryption
         image: images/encryption-static.png
