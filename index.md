@@ -8,9 +8,9 @@ sections:
     title: Distributed Ledger Technology Partner
     content: >-
       <p class="greek">We deliver enterprise grade, permissioned based blockchain infrastructure and software.</p>
-      <p>> bypass configuration and infrastructure headaches<br />
-         > from concept to deployment lifecycle<br />
-         > private nodes, peers and certificate authorities<br />
+      <p>> private nodes, peers and certificate authorities<br />
+         > bypass configuration and infrastructure headaches<br />
+         > from software concept to deployment lifecycle<br />
          > scalable cluster management and monitoring</p>
     actions:
       - label: Learn More
