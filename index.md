@@ -21,8 +21,7 @@ sections:
     background: gray
     title: Specialists in bespoke permission based distributed ledger projects
     subtitle: >-
-      Have an idea for a new DLT project? We develop and deliver bespoke, private business
-      blockchain projects for SMEs, Enterprise and Startups.
+      Have an idea for a new DLT project? We work with SMEs, Enterprise and Funded Startups on complex, private blockchain projects.
     features:
       - title: Encryption
         image: images/encryption-static.png
