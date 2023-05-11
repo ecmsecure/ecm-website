@@ -5,11 +5,11 @@ sections:
     type: section_hero
     image: images/hero.png
     image_alt: Blockchain as a Service
-    title: Business Blockchain Up & Running
+    title: Distributed Ledger Technology Partner
     content: >-
-      <p class="greek">hassle-free enterprise grade blockchain infrastructure and digital asset REST API</p>
+      <p class="greek">We deliver enterprise grade, permissioned based blockchain infrastructure and software.</p>
       <p>> bypass configuration and infrastructure headaches<br />
-         > chaincode deployment &amp; interactive asset API<br />
+         > from concept to deployment lifecycle<br />
          > private nodes, peers and certificate authorities<br />
          > scalable cluster management and monitoring</p>
     actions:
@@ -19,10 +19,10 @@ sections:
   - section_id: features
     type: section_features
     background: gray
-    title: focus on developing your blockchain idea not painful infrastructure
+    title: Specialists in bespoke permission based distributed ledger projects
     subtitle: >-
-      Quick start with an enterprise-grade, private blockchain cluster
-      and REST API ready to track your digital assets immediately. 
+      Have an idea for a new DLT project? We develop and deliver bespoke, private business
+      blockchain projects for SMEs, Enterprise and Startups.
     features:
       - title: Encryption
         image: images/encryption-static.png
