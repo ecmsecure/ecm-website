@@ -504,6 +504,8 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focu
 body.has-theme-bar #page { top: 60px; }
 @media only screen and (min-width: 801px) { body.has-theme-bar #page .site-header { top: 60px; } }
 
+.site-logo { padding-left: 40px; }
+
 #hero .block-title { font-weight: normal; font-size: 2.7em; margin-bottom: 0.5em; position: relative; }
 #hero .block-title a { cursor: pointer; }
 #hero .block-title img { position: absolute; left: -1.2em; display: inline-block; height: 50px; top: 0.25em; }
