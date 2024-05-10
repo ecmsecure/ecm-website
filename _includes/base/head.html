@@ -5,6 +5,7 @@
 
     {% if include.title %}<title>{{ include.title }}</title>{% endif %}
     {% if include.description %}<description>{{ include.description }}</description>{% endif %}
+    {% if include.description %}<meta name="description" content="{{ include.description }}">{% endif %}
 
     {%- seo -%}
 
