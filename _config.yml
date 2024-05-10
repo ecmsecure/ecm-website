@@ -16,7 +16,7 @@ plugins:
 
 #> metadata #
 baseurl: "/"
-url: "https://ecmsecure.com"
+url: "https://www.ecmsecure.com"
 
 name: ECM
 title: ECM
