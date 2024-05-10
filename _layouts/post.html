@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<main id="main">
+    {% include arsha/breadcrumbs.html subpage="Portfolio Details" title=page.title %}
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-8">
+                    <div class="portfolio-details-slider swiper">
+                        <div class="swiper-wrapper align-items-center">
+                            <div class="swiper-slide">
+                                <img src="{{ page.featured_image | default: "assets/img/placeholder.jpg" | relative_url }}"
+                                     alt="Portfolio">
+                            </div>
+                            {% for img_url in page.images %}
+                                <div class="swiper-slide">
+                                    <img src="{{ img_url | relative_url }}" alt="Portfolio">
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="portfolio-info">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: {{ page.categories | default: "N/A" }}</li>
+                            <li><strong>Client</strong>: {{ page.client | default: "N/A" }}</li>
+                            <li><strong>Project date</strong>: {{ page.date | date: "%d %B, %Y" | default: "N/A" }}</li>
+                            <li><strong>Project URL</strong>: <a {% if page.external_url %}target="_blank"{% endif %}
+                                                                 href="{{ page.external_url | default: "#" }}">{{ page.external_url | default: "N/A" }}</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-description">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Portfolio Details Section -->
+</main><!-- End #main -->
+
+{%- if jekyll.environment == 'production' and site.disqus.shortname -%}
+    {%- include addons/disqus.html -%}
+{%- endif -%}

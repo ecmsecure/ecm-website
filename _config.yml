@@ -1,0 +1,63 @@
+##### Theme settings - will be applied before copying .scss files into site #####
+sass:
+  style: compressed
+##### Theme settings - will be applied before copying .scss files into site  #####
+
+
+##### Theme plugins - should be installed manually in the site to use the theme #####
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-relative-links
+##### Theme plugins - should be installed manually in the site to use the theme #####
+
+
+##### Site config - won't be loaded when using the theme, you should have something similar in your site #####
+
+#> metadata #
+baseurl: "/"
+url: "https://mlh-fellowship.github.io"
+
+name: ECM
+title: ECM
+email: info@ecmseure.com
+# logo: assets/img/logo.png # you can specify a logo for your site
+description: >- # this means to ignore newlines until "X:"
+  Secure storage and transfer API for sensitive digital assets.
+
+social_links:
+  github: https://github.com/MLH-fellowship/jekyll-theme-arsha
+  discord: "#"
+  twitter: "#"
+#< metadata #
+
+#> permalinks and default layouts #
+permalink: pretty # remove .html extension from permalinks
+defaults: # adding default layouts
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /portfolio/:year/:title/
+#< permalinks and default layouts #
+
+#> jekyll-relative-links #
+relative_links:
+  enabled: true
+  exclude:
+    - USAGE.md
+    - DEVELOPMENT.md
+#< jekyll-relative-links #
+
+exclude:
+  - jekyll-theme-arsha.gemspec
+  - USAGE.md
+  - DEVELOPMENT.md
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+
+##### Site config - won't be loaded when using the theme, you should have something similar in your site #####
