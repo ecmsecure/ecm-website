@@ -60,4 +60,7 @@ exclude:
   - Gemfile.lock
   - .gitignore
 
+include:
+  - _pages
+
 ##### Site config - won't be loaded when using the theme, you should have something similar in your site #####

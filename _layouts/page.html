@@ -3,9 +3,9 @@ layout: default
 ---
 
 {% assign extension = page.path | split: '.' | last %}
+{% include arsha/breadcrumbs.html subpage=page.title title=page.title %}
 
 <main id="main">
-    {% include arsha/breadcrumbs.html subpage=page.title title=page.title %}
 
     {% if extension == "html" %}
         {{ content }}

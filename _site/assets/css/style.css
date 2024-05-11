@@ -736,6 +736,10 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Breadcrumbs section
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -1107,11 +1111,11 @@ section {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background: #f3f5fa;
-  min-height: 40px;
-  margin-top: 72px;
+#breadcrumbs {
+    width: 100%;
+    min-height: 30vh;
+    background: #3F296C;
+    padding: 200px 0px 100px 0px;
 }
 
 @media (max-width: 992px) {
@@ -1121,9 +1125,19 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 28px;
+  margin: 20px 0 20px 0;
   font-weight: 600;
-  color: #37517e;
+  width: 60%;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.breadcrumbs p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  max-width: 535px;
+  line-height: 1.5;
 }
 
 .breadcrumbs ol {
@@ -1137,6 +1151,7 @@ section {
 
 .breadcrumbs ol li+li {
   padding-left: 10px;
+  color: #999;
 }
 
 .breadcrumbs ol li+li::before {
