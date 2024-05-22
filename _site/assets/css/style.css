@@ -1307,6 +1307,7 @@ section {
   width: 60%;
   line-height: 1.4;
   color: #fff;
+  padding: 0;
 }
 
 .breadcrumbs p {
