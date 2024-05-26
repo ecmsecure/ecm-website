@@ -35,7 +35,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   line-height: 1.2;
   font-weight: 700;
-  color: #1E1C24;
+  color: #444;
 }
 
 p {
@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 48px;
 }
 
 h3 {
@@ -760,7 +760,7 @@ section {
 }
 
 .content-block h2 {
-  margin-bottom: 16px;
+  margin-bottom: 25px;
   padding-bottom: 22px;
   position: relative;
 }
@@ -772,7 +772,7 @@ section {
   width: 77px;
   height: 2px;
   background: #3BC9F8;
-  bottom: 0;
+  bottom: -10px;
   left: 0;
 }
 
@@ -1063,7 +1063,7 @@ section {
 }
 
 .aos-animate h2{
-  padding: 0 15px;
+  padding: 0 0px;
 }
 
 .blockchain-software-development .info-block .list-block ul li .nav-link:hover {
@@ -1293,6 +1293,12 @@ section {
     min-height: 30vh;
     background: #3F296C;
     padding: 200px 0px 100px 0px;
+    /* background-image: url(../img/ECM-DNA.svg); */
+    /* background-repeat: no-repeat, no-repeat; */
+    /* background-position: bottom; */
+    /* background-size: cover; */
+    /* -webkit-transition: background-image 0.2s ease-in-out; */
+    /* transition: background-image 0.2s ease-in-out; */
 }
 
 @media (max-width: 992px) {
