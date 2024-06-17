@@ -317,4 +317,52 @@
       mirror: false,
     });
   });
+
+  window.onbeforeunload = () => {
+    for (const form of document.getElementsByTagName("form")) {
+      form.reset();
+    }
+  };
+
+  var form = document.getElementById("email-form");
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var sentMessage = document.getElementById("sent-message");
+    var errorMessage = document.getElementById("error-message");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+        Accept: "application/json",
+      },
+    })
+      .then((response) => {
+        if (response.ok) {
+          sentMessage.innerHTML = "Thanks for your submission!";
+          sentMessage.style.display = "block";
+          form.reset();
+        } else {
+          response.json().then((data) => {
+            if (Object.hasOwn(data, "errors")) {
+              errorMessage.innerHTML = data["errors"]
+                .map((error) => error["message"])
+                .join(", ");
+              errorMessage.style.display = "block";
+            } else {
+              errorMessage.innerHTML =
+                "Oops! There was a problem submitting your form";
+              errorMessage.style.display = "block";
+            }
+          });
+        }
+      })
+      .catch((error) => {
+        errorMessage.innerHTML =
+          "Oops! There was a problem submitting your form";
+        errorMessage.style.display = "block";
+      });
+  }
+  form.addEventListener("submit", handleSubmit);
 })();
