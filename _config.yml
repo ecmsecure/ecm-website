@@ -50,6 +50,9 @@ relative_links:
     - DEVELOPMENT.md
 #< jekyll-relative-links #
 
+plugins:
+  - jekyll-sitemap
+
 exclude:
   - jekyll-theme-arsha.gemspec
   - USAGE.md
